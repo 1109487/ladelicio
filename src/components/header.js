@@ -6,7 +6,7 @@ export function createHeader() {
   header.innerHTML = `
     <div class="container header-content">
       <a href="/" class="logo">
-        <img src="/logo.png" alt="La Delicio Logo" class="logo-img" style="height: 60px;">
+        <img src="/logo.png" alt="La Delicio Logo" class="logo-img" style="height: 45px;">
       </a>
       
       <nav class="main-nav">

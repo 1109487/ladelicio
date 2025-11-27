@@ -7,15 +7,10 @@ export function renderHome() {
   const hero = document.createElement('section');
   hero.className = 'hero-section';
   hero.innerHTML = `
-    <div class="hero-content text-center fade-in">
-      <h1 class="hero-title">Slice • Scoop • Sip • Smile</h1>
-      <p class="hero-subtitle">Experience the art of gourmet desserts</p>
-      <div class="hero-actions">
-        <a href="/menu" class="btn btn-primary">View Menu</a>
-        <a href="/gallery" class="btn btn-secondary">View Gallery</a>
-      </div>
+    <!-- Hero Image Row -->
+    <div class="hero-image-row">
+      <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1920&h=1080&fit=crop&q=80" alt="Beautiful Bakery Display" class="hero-image-full">
     </div>
-    <div class="hero-overlay"></div>
   `;
 
   // 2. Intro Section
@@ -42,7 +37,7 @@ export function renderHome() {
       <div class="showcase-grid">
         <!-- Item 1 -->
         <div class="showcase-card">
-          <img src="https://placehold.co/600x400/A7D7C5/ffffff?text=Gourmet+Cakes" alt="Gourmet Cakes" class="card-image-img">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&q=80" alt="Gourmet Cakes" class="card-image-img">
           <div class="card-content">
             <h3>Gourmet Cakes</h3>
             <p>Handcrafted with the finest ingredients.</p>
@@ -50,7 +45,7 @@ export function renderHome() {
         </div>
         <!-- Item 2 -->
         <div class="showcase-card">
-          <img src="https://placehold.co/600x400/FFDAC1/ffffff?text=Scoop+Ice+Cream" alt="Scoop Ice Cream" class="card-image-img">
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=400&fit=crop&q=80" alt="Scoop Ice Cream" class="card-image-img">
           <div class="card-content">
             <h3>Scoop Ice Cream</h3>
             <p>Rich, creamy, and full of flavor.</p>
@@ -58,7 +53,7 @@ export function renderHome() {
         </div>
         <!-- Item 3 -->
         <div class="showcase-card">
-          <img src="https://placehold.co/600x400/A7D7C5/ffffff?text=Signature+Shakes" alt="Signature Shakes" class="card-image-img">
+          <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&h=400&fit=crop&q=80" alt="Signature Shakes" class="card-image-img">
           <div class="card-content">
             <h3>Signature Shakes</h3>
             <p>Sip into a world of happiness.</p>
@@ -77,3 +72,4 @@ export function renderHome() {
 
   return homeContainer;
 }
+

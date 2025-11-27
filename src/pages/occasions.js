@@ -18,10 +18,10 @@ export function renderOccasions() {
   gallery.className = 'occasions-gallery container section-padding';
 
   const occasions = [
-    { title: 'Weddings', price: '₹3000', imgUrl: 'https://placehold.co/600x800/A7D7C5/ffffff?text=Wedding+Cakes' },
-    { title: 'Birthdays', price: '₹1200', imgUrl: 'https://placehold.co/600x800/FFDAC1/ffffff?text=Birthday+Cakes' },
-    { title: 'Anniversaries', price: '₹1500', imgUrl: 'https://placehold.co/600x800/A7D7C5/ffffff?text=Anniversary' },
-    { title: 'Corporate Events', price: '₹2500', imgUrl: 'https://placehold.co/600x800/FFDAC1/ffffff?text=Corporate' }
+    { title: 'Weddings', price: '₹3000', imgUrl: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=600&h=800&fit=crop&q=80' },
+    { title: 'Birthdays', price: '₹1200', imgUrl: 'https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=600&h=800&fit=crop&q=80' },
+    { title: 'Anniversaries', price: '₹1500', imgUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=800&fit=crop&q=80' },
+    { title: 'Corporate Events', price: '₹2500', imgUrl: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&h=800&fit=crop&q=80' }
   ];
 
   gallery.innerHTML = `

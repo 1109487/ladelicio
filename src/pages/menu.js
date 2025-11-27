@@ -22,26 +22,26 @@ export function renderMenu() {
       id: 'cakes',
       title: 'Gourmet Cakes',
       items: [
-        { name: 'Truffle Bliss', price: '₹1200', desc: 'Rich chocolate truffle with gold dust', imgUrl: 'https://placehold.co/400x300/A7D7C5/ffffff?text=Truffle+Bliss' },
-        { name: 'Red Velvet', price: '₹1400', desc: 'Classic red velvet with cream cheese frosting', imgUrl: 'https://placehold.co/400x300/FFDAC1/ffffff?text=Red+Velvet' },
-        { name: 'Mango Delight', price: '₹1100', desc: 'Seasonal fresh mango cake', imgUrl: 'https://placehold.co/400x300/A7D7C5/ffffff?text=Mango+Delight' }
+        { name: 'Truffle Bliss', price: '₹1200', desc: 'Rich chocolate truffle with gold dust', imgUrl: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop&q=80' },
+        { name: 'Red Velvet', price: '₹1400', desc: 'Classic red velvet with cream cheese frosting', imgUrl: 'https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=400&h=300&fit=crop&q=80' },
+        { name: 'Mango Delight', price: '₹1100', desc: 'Seasonal fresh mango cake', imgUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop&q=80' }
       ]
     },
     {
       id: 'pastries',
       title: 'Pastries & Éclairs',
       items: [
-        { name: 'Chocolate Éclair', price: '₹150', desc: 'Filled with vanilla custard', imgUrl: 'https://placehold.co/400x300/FFDAC1/ffffff?text=Eclair' },
-        { name: 'Fruit Tart', price: '₹180', desc: 'Fresh fruits on almond cream', imgUrl: 'https://placehold.co/400x300/A7D7C5/ffffff?text=Fruit+Tart' },
-        { name: 'Macaron Box (6pc)', price: '₹450', desc: 'Assorted flavors', imgUrl: 'https://placehold.co/400x300/FFDAC1/ffffff?text=Macarons' }
+        { name: 'Chocolate Éclair', price: '₹150', desc: 'Filled with vanilla custard', imgUrl: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&h=300&fit=crop&q=80' },
+        { name: 'Fruit Tart', price: '₹180', desc: 'Fresh fruits on almond cream', imgUrl: 'https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400&h=300&fit=crop&q=80' },
+        { name: 'Macaron Box (6pc)', price: '₹450', desc: 'Assorted flavors', imgUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&h=300&fit=crop&q=80' }
       ]
     },
     {
       id: 'icecream',
       title: 'Ice Cream Delights',
       items: [
-        { name: 'Belgian Chocolate', price: '₹120', desc: 'Single scoop', imgUrl: 'https://placehold.co/400x300/A7D7C5/ffffff?text=Belgian+Choc' },
-        { name: 'Strawberry Swirl', price: '₹110', desc: 'Fresh strawberry chunks', imgUrl: 'https://placehold.co/400x300/FFDAC1/ffffff?text=Strawberry' }
+        { name: 'Belgian Chocolate', price: '₹120', desc: 'Single scoop', imgUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop&q=80' },
+        { name: 'Strawberry Swirl', price: '₹110', desc: 'Fresh strawberry chunks', imgUrl: 'https://images.unsplash.com/photo-1562440499-64c9a111f713?w=400&h=300&fit=crop&q=80' }
       ]
     }
   ];

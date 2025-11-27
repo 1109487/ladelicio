@@ -18,7 +18,7 @@ export function renderAbout() {
   story.className = 'story-section container section-padding';
   story.innerHTML = `
     <div class="story-grid">
-      <img src="https://placehold.co/600x600/A7D7C5/ffffff?text=Our+Story" alt="Our Story" class="story-image-img">
+      <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=600&fit=crop&q=80" alt="Our Bakery Story" class="story-image-img">
       <div class="story-content">
         <h2>A Passion for Gourmet</h2>
         <p>
